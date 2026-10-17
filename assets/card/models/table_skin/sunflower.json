@@ -1,0 +1,510 @@
+{
+  "display": {
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        135,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "translation": [
+        0,
+        3.75,
+        0
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        135,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "translation": [
+        0,
+        3.75,
+        0
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        -90,
+        0,
+        0
+      ],
+      "scale": [
+        2,
+        2,
+        2
+      ],
+      "translation": [
+        0,
+        0,
+        -16
+      ]
+    },
+    "ground": {
+      "scale": [
+        0.25,
+        0.25,
+        0.25
+      ],
+      "translation": [
+        0,
+        3,
+        0
+      ]
+    },
+    "gui": {
+      "rotation": [
+        30,
+        225,
+        0
+      ],
+      "scale": [
+        0.625,
+        0.625,
+        0.625
+      ]
+    },
+    "head": {
+      "translation": [
+        0,
+        15.25,
+        0
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ]
+    }
+  },
+  "elements": [
+    {
+      "faces": {
+        "down": {
+          "texture": "#0",
+          "uv": [
+            8.5,
+            9.5,
+            6,
+            12
+          ]
+        },
+        "east": {
+          "texture": "#0",
+          "uv": [
+            0,
+            12.5,
+            2.5,
+            13.5
+          ]
+        },
+        "north": {
+          "texture": "#0",
+          "uv": [
+            0,
+            12.5,
+            2.5,
+            13.5
+          ]
+        },
+        "south": {
+          "texture": "#0",
+          "uv": [
+            0,
+            12.5,
+            2.5,
+            13.5
+          ]
+        },
+        "west": {
+          "texture": "#0",
+          "uv": [
+            0,
+            12.5,
+            2.5,
+            13.5
+          ]
+        }
+      },
+      "from": [
+        5.5,
+        0,
+        5.5
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          7,
+          0,
+          7
+        ]
+      },
+      "to": [
+        10.5,
+        2,
+        10.5
+      ]
+    },
+    {
+      "faces": {
+        "east": {
+          "texture": "#0",
+          "tintindex": 1,
+          "uv": [
+            13,
+            12.5,
+            15,
+            13
+          ]
+        },
+        "north": {
+          "texture": "#0",
+          "tintindex": 1,
+          "uv": [
+            13,
+            12.5,
+            15,
+            13
+          ]
+        },
+        "south": {
+          "texture": "#0",
+          "tintindex": 1,
+          "uv": [
+            13,
+            12.5,
+            15,
+            13
+          ]
+        },
+        "up": {
+          "texture": "#0",
+          "tintindex": 0,
+          "uv": [
+            8,
+            14,
+            6,
+            12
+          ]
+        },
+        "west": {
+          "texture": "#0",
+          "tintindex": 1,
+          "uv": [
+            13,
+            12.5,
+            15,
+            13
+          ]
+        }
+      },
+      "from": [
+        6,
+        5,
+        6
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          7,
+          4,
+          7
+        ]
+      },
+      "to": [
+        10,
+        6,
+        10
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#0",
+          "tintindex": 1,
+          "uv": [
+            6,
+            9.5,
+            3,
+            12.5
+          ]
+        },
+        "east": {
+          "texture": "#0",
+          "tintindex": 1,
+          "uv": [
+            8.5,
+            9.5,
+            11.5,
+            11
+          ]
+        },
+        "north": {
+          "texture": "#0",
+          "tintindex": 1,
+          "uv": [
+            8.5,
+            9.5,
+            11.5,
+            11
+          ]
+        },
+        "south": {
+          "texture": "#0",
+          "tintindex": 1,
+          "uv": [
+            8.5,
+            9.5,
+            11.5,
+            11
+          ]
+        },
+        "up": {
+          "texture": "#0",
+          "tintindex": 1,
+          "uv": [
+            3,
+            12.5,
+            0,
+            9.5
+          ]
+        },
+        "west": {
+          "texture": "#0",
+          "tintindex": 1,
+          "uv": [
+            8.5,
+            9.5,
+            11.5,
+            11
+          ]
+        }
+      },
+      "from": [
+        5,
+        2,
+        5
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          7,
+          3,
+          7
+        ]
+      },
+      "to": [
+        11,
+        5,
+        11
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#0",
+          "uv": [
+            8,
+            0,
+            0,
+            0
+          ]
+        },
+        "east": {
+          "texture": "#0",
+          "uv": [
+            0,
+            0,
+            0,
+            9.5
+          ]
+        },
+        "north": {
+          "texture": "#0",
+          "uv": [
+            0,
+            0,
+            8,
+            9.5
+          ]
+        },
+        "south": {
+          "texture": "#0",
+          "uv": [
+            0,
+            0,
+            8,
+            9.5
+          ]
+        },
+        "up": {
+          "texture": "#0",
+          "uv": [
+            8,
+            0,
+            0,
+            0
+          ]
+        },
+        "west": {
+          "texture": "#0",
+          "uv": [
+            0,
+            0,
+            0,
+            9.5
+          ]
+        }
+      },
+      "from": [
+        -3,
+        0,
+        8
+      ],
+      "rotation": {
+        "angle": 45,
+        "axis": "y",
+        "origin": [
+          8,
+          9.5,
+          8
+        ]
+      },
+      "to": [
+        19,
+        19,
+        8
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "rotation": 270,
+          "texture": "#0",
+          "uv": [
+            8,
+            0,
+            0,
+            0
+          ]
+        },
+        "east": {
+          "texture": "#0",
+          "uv": [
+            0,
+            0,
+            8,
+            9.5
+          ]
+        },
+        "north": {
+          "texture": "#0",
+          "uv": [
+            0,
+            0,
+            0,
+            9.5
+          ]
+        },
+        "south": {
+          "texture": "#0",
+          "uv": [
+            0,
+            0,
+            0,
+            9.5
+          ]
+        },
+        "up": {
+          "rotation": 90,
+          "texture": "#0",
+          "uv": [
+            8,
+            0,
+            0,
+            0
+          ]
+        },
+        "west": {
+          "texture": "#0",
+          "uv": [
+            0,
+            0,
+            8,
+            9.5
+          ]
+        }
+      },
+      "from": [
+        8,
+        0,
+        -3
+      ],
+      "rotation": {
+        "angle": 45,
+        "axis": "y",
+        "origin": [
+          8,
+          9.5,
+          8
+        ]
+      },
+      "to": [
+        8,
+        19,
+        19
+      ]
+    }
+  ],
+  "texture_size": [
+    32,
+    32
+  ],
+  "textures": {
+    "0": "card:table_skin/nyaa/af/af010",
+    "particle": "card:table_skin/nyaa/af/af010"
+  }
+}
