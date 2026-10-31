@@ -1,1 +1,33 @@
-{"model": {"type": "minecraft:model", "model": "card:item/avalon/percival"}}
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "when": "gui",
+        "model": {
+          "type": "minecraft:model",
+          "model": "card:item/avalon/percival"
+        }
+      },
+      {
+        "when": "firstperson_righthand",
+        "model": {
+          "type": "minecraft:model",
+          "model": "card:item/avalon/percival"
+        }
+      },
+      {
+        "when": "firstperson_lefthand",
+        "model": {
+          "type": "minecraft:model",
+          "model": "card:item/avalon/percival"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "card:item/avalon/private_back"
+    }
+  }
+}
