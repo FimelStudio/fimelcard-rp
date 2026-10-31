@@ -1,0 +1,77 @@
+{
+  "textures": {
+    "front": "card:avalon/assassin",
+    "back": "card:avalon/reveal_back",
+    "particle": "card:avalon/assassin"
+  },
+  "elements": [
+    {
+      "from": [
+        3,
+        0,
+        7.95
+      ],
+      "to": [
+        13,
+        16,
+        8.05
+      ],
+      "faces": {
+        "north": {
+          "texture": "#front",
+          "uv": [
+            2.6875,
+            0.0,
+            15.0625,
+            15.625
+          ]
+        },
+        "south": {
+          "texture": "#back",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#back",
+          "uv": [
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        "west": {
+          "texture": "#back",
+          "uv": [
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        "up": {
+          "texture": "#back",
+          "uv": [
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        "down": {
+          "texture": "#back",
+          "uv": [
+            0,
+            0,
+            1,
+            1
+          ]
+        }
+      }
+    }
+  ]
+}
