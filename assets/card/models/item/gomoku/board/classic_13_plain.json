@@ -1,0 +1,78 @@
+{
+  "credit": "Fimel Cards original artwork",
+  "textures": {
+    "all": "card:item/gomoku/board/classic_13_plain",
+    "particle": "card:item/gomoku/board/classic_13_plain"
+  },
+  "elements": [
+    {
+      "name": "board",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        0.06,
+        16
+      ],
+      "faces": {
+        "up": {
+          "texture": "#all",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "down": {
+          "texture": "#all",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "north": {
+          "texture": "#all",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#all",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#all",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#all",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        }
+      }
+    }
+  ]
+}

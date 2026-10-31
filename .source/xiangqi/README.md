@@ -3,7 +3,7 @@
 棋盘、棋子纹理和圆盘几何均为 Fimel Cards 自制，未使用网站的棋盘图片或第三方棋子模型。
 棋子使用 32 个 Java 原版元素拼成近圆形边缘，直径 15/16，厚度 3/16，无需 OptiFine 或模组。
 七种红方棋子为帅、仕、相、马、车、炮、兵；黑方为将、士、象、马、车、炮、卒。
-四种棋子材质、五种棋盘配色可在游戏设置中调整。 `palettes.png` 为预览，`models/` 内是可以在 Blockbench 继续编辑的 .bbmodel。
+经典和木色两种棋子材质与棋盘配色可在游戏设置中调整。 `palettes.png` 为预览，`models/` 内是可以在 Blockbench 继续编辑的 .bbmodel。
 
 生成方法：从数据包目录执行 `python tools/build_xiangqi_visual.py`，依赖 Pillow 和 Windows 楷体字体 simkai.ttf。
 逻辑格号 `rank*9+file`，红方底线为 rank=0，红方将帅位于 file=4。

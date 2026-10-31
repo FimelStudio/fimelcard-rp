@@ -1,0 +1,82 @@
+{
+  "credit": "Opposite dice faces sum to seven",
+  "textures": {
+    "f1": "card:item/aeroplane_chess/dice/1",
+    "f2": "card:item/aeroplane_chess/dice/2",
+    "f3": "card:item/aeroplane_chess/dice/3",
+    "f4": "card:item/aeroplane_chess/dice/4",
+    "f5": "card:item/aeroplane_chess/dice/5",
+    "f6": "card:item/aeroplane_chess/dice/6"
+  },
+  "elements": [
+    {
+      "name": "cube",
+      "from": [
+        1,
+        1,
+        1
+      ],
+      "to": [
+        15,
+        15,
+        15
+      ],
+      "faces": {
+        "up": {
+          "texture": "#f1",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "down": {
+          "texture": "#f6",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "north": {
+          "texture": "#f2",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#f5",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#f3",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#f4",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        }
+      }
+    }
+  ]
+}
