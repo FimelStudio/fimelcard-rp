@@ -187,6 +187,17 @@ def card_uv(face: Image.Image) -> Image.Image:
     return uv
 
 
+def selected_face(face: Image.Image) -> Image.Image:
+    """A luminous two-pixel frame; keep glyph size and advance unchanged."""
+    result = face.copy()
+    draw = ImageDraw.Draw(result)
+    draw.rounded_rectangle((0, 0, 25, 43), radius=2,
+                           outline=(255, 194, 28, 255), width=2)
+    draw.rounded_rectangle((1, 1, 24, 42), radius=1,
+                           outline=(255, 248, 168, 255), width=1)
+    return result
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--art", type=Path, default=SOURCE / "art-atlas.png")
@@ -209,14 +220,17 @@ def main() -> None:
     font_dir = ASSETS / "textures" / "font" / "uno"
     item_dir.mkdir(parents=True, exist_ok=True)
     font_dir.mkdir(parents=True, exist_ok=True)
+    (font_dir / "selected").mkdir(parents=True, exist_ok=True)
     faces = []
     providers = []
+    selected_providers = []
     for index in range(54):
         name = asset_name(index)
         face = make_face(blank, index)
         faces.append(face)
         card_uv(face).save(item_dir / f"{name}.png")
         face.save(font_dir / f"{name}.png")
+        selected_face(face).save(font_dir / "selected" / f"{name}.png")
         model = f"card:item/uno/{name}"
         dump(ASSETS / "models" / "item" / "uno" / f"{name}.json", {
             "parent": "card:item/fake_card",
@@ -227,7 +241,10 @@ def main() -> None:
                 {"when": ["thirdperson_righthand", "thirdperson_lefthand"], "model": {"type": "minecraft:model", "model": "card:item/uno/back"}},
             ], "fallback": {"type": "minecraft:model", "model": model}},
         })
-        providers.append({"type": "bitmap", "file": f"card:font/uno/{name}.png", "height": 32, "ascent": 28, "chars": [chr(0xE600 + index)]})
+        # DDZ assembles six 9px slices into a 54px card. Match that height,
+        # retaining UNO's narrower card aspect ratio and independent HUD fonts.
+        providers.append({"type": "bitmap", "file": f"card:font/uno/{name}.png", "height": 54, "ascent": 50, "chars": [chr(0xE600 + index)]})
+        selected_providers.append({"type": "bitmap", "file": f"card:font/uno/selected/{name}.png", "height": 54, "ascent": 50, "chars": [chr(0xE600 + index)]})
     card_uv(back).save(item_dir / "back.png")
     # fake_card's south face runs U from 10 to 1.33333. Pre-flip only its #1 UV
     # texture, leaving #0/back and the held-item front artwork naturally readable.
@@ -242,6 +259,7 @@ def main() -> None:
     for name in ["back", "box"]:
         dump(ASSETS / "items" / "uno" / f"{name}.json", {"model": {"type": "minecraft:model", "model": f"card:item/uno/{name}"}})
     dump(ASSETS / "font" / "uno" / "dialog.json", {"providers": providers})
+    dump(ASSETS / "font" / "uno" / "dialog_selected.json", {"providers": selected_providers})
     # Review sheet deliberately lives outside runtime assets.
     sheet = Image.new("RGB", (9 * 96, 7 * 156), (45, 48, 54))
     draw = ImageDraw.Draw(sheet)
@@ -256,7 +274,16 @@ def main() -> None:
     sheet.paste(back_flipped.resize((78, 132), Image.Resampling.NEAREST), (297, 6 * 156 + 6))
     draw.text((297, 6 * 156 + 142), "back_flipped (UV)", fill="white")
     sheet.save(SOURCE / "contact-sheet.png")
-    print(f"Exported 54 card faces, back, box, 56 item models, 54 dialog glyphs to {PACK}")
+    # Side-by-side review of the regular/selected dialog and HUD faces.
+    preview = Image.new("RGB", (6 * 190, 174), (45, 48, 54))
+    preview_draw = ImageDraw.Draw(preview)
+    for column, index in enumerate([7, 24, 36, 48, 52, 53]):
+        x = column * 190 + 8
+        for offset, face in [(0, faces[index]), (88, selected_face(faces[index]))]:
+            preview.paste(face.resize((78, 132), Image.Resampling.NEAREST), (x + offset, 8))
+        preview_draw.text((x, 150), asset_name(index), fill="white")
+    preview.save(SOURCE / "selection-preview.png")
+    print(f"Exported 54 card faces, back, box, 56 item models, 54 regular/selected dialog glyphs to {PACK}")
 
 
 if __name__ == "__main__":
