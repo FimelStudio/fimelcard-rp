@@ -93,5 +93,61 @@
         "attenuation_distance": 12
       }
     ]
+  },
+  "xiangqi.move": {
+    "subtitle": "subtitles.card.xiangqi.move",
+    "sounds": [
+      {
+        "name": "card:xiangqi/move",
+        "attenuation_distance": 12
+      }
+    ]
+  },
+  "xiangqi.capture": {
+    "subtitle": "subtitles.card.xiangqi.capture",
+    "sounds": [
+      {
+        "name": "card:xiangqi/capture",
+        "attenuation_distance": 12
+      }
+    ]
+  },
+  "xiangqi.start": {
+    "subtitle": "subtitles.card.xiangqi.start",
+    "sounds": [
+      {
+        "name": "card:xiangqi/gong",
+        "attenuation_distance": 12
+      }
+    ]
+  },
+  "xiangqi.end": {
+    "subtitle": "subtitles.card.xiangqi.end",
+    "sounds": [
+      {
+        "name": "card:xiangqi/gong",
+        "attenuation_distance": 12
+      }
+    ]
+  },
+  "xiangqi.check": {
+    "subtitle": "subtitles.card.xiangqi.check",
+    "sounds": [
+      {
+        "name": "minecraft:block.note_block.bell",
+        "type": "event",
+        "pitch": 1.2
+      }
+    ]
+  },
+  "xiangqi.illegal": {
+    "subtitle": "subtitles.card.xiangqi.illegal",
+    "sounds": [
+      {
+        "name": "minecraft:block.note_block.bass",
+        "type": "event",
+        "pitch": 0.7
+      }
+    ]
   }
 }
