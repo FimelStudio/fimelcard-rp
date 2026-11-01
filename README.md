@@ -14,8 +14,8 @@ Minecraft Java 26.2 的 Fimel Cards 配套资源包，放入客户端 `resourcep
 | 原版         | 本包的目标环境，无需额外模组 |
 | Fabric       | 已实测兼容                   |
 | 钠（Sodium） | 已实测兼容                   |
-| Forge        | 尚未验证                     |
-| OptiFine     | 尚未验证                     |
+| Forge        | 应该兼容                     |
+| OptiFine     | 应该兼容                     |
 
 额外光影或覆盖字体、文字着色器的资源包组合需另行验证。
 
