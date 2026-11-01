@@ -1,0 +1,210 @@
+{
+  "credit": "Fimel Cards original court cards; portrait atlas generated with built-in image_gen",
+  "textures": {
+    "front": "card:item/love_letter/spy",
+    "back": "card:item/love_letter/back",
+    "edge": "card:item/love_letter/edge",
+    "particle": "card:item/love_letter/spy"
+  },
+  "elements": [
+    {
+      "name": "card",
+      "from": [
+        1,
+        0,
+        8
+      ],
+      "to": [
+        13,
+        18,
+        8.35
+      ],
+      "faces": {
+        "up": {
+          "texture": "#edge",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "down": {
+          "texture": "#edge",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "north": {
+          "texture": "#front",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#back",
+          "uv": [
+            16,
+            0,
+            0,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#edge",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#edge",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        }
+      }
+    }
+  ],
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [
+        179,
+        0,
+        -180
+      ],
+      "translation": [
+        -0.25,
+        2.75,
+        1
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        177.25,
+        0,
+        -180
+      ],
+      "translation": [
+        0.25,
+        2.75,
+        1
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        -180,
+        22,
+        -180
+      ],
+      "translation": [
+        1,
+        4.8,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        -180,
+        22,
+        -180
+      ],
+      "translation": [
+        2.5,
+        4.8,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "ground": {
+      "rotation": [
+        -90,
+        -3.03,
+        2.96
+      ],
+      "translation": [
+        0,
+        -2.75,
+        0
+      ],
+      "scale": [
+        0.48,
+        0.48,
+        0.48
+      ]
+    },
+    "gui": {
+      "rotation": [
+        174.23,
+        31.03,
+        -168.91
+      ],
+      "translation": [
+        -0.5,
+        -0.75,
+        0
+      ],
+      "scale": [
+        0.8,
+        0.8,
+        0.8
+      ]
+    },
+    "head": {
+      "translation": [
+        0.75,
+        9,
+        0
+      ]
+    },
+    "fixed": {
+      "translation": [
+        0.75,
+        -1,
+        -1
+      ]
+    },
+    "on_shelf": {
+      "rotation": [
+        -90,
+        0,
+        180
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    }
+  }
+}
