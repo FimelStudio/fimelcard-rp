@@ -1,0 +1,248 @@
+{
+  "license": "CC0-1.0",
+  "sources": [
+    {
+      "author": "Kenney",
+      "title": "Casino Audio 1.1",
+      "page": "https://kenney.nl/assets/casino-audio",
+      "license_file": "kenney/casino/License.txt",
+      "page_snapshot": "kenney-casino-page.html"
+    },
+    {
+      "author": "Kenney",
+      "title": "Impact Sounds 1.0",
+      "page": "https://kenney.nl/assets/impact-sounds",
+      "license_file": "kenney/impact/License.txt",
+      "page_snapshot": "kenney-impact-page.html"
+    },
+    {
+      "author": "RandomMind",
+      "title": "Medieval: The Old Tower Inn (loop)",
+      "page": "https://opengameart.org/content/medieval-the-old-tower-inn",
+      "download": "https://opengameart.org/sites/default/files/Loop_The_Old_Tower_Inn.wav",
+      "page_snapshot": "randommind-page.html",
+      "license_file": "CC0-1.0.txt"
+    }
+  ],
+  "loop_ticks": 1000,
+  "references": {
+    "take": {
+      "resource": "card:catan/trade",
+      "volume": 0.48,
+      "sha256": "e81c486bed7f0dfd1728681493b2a4a4c04110120136957f392cfac98823e0e9",
+      "original": {
+        "source": "kenney/casino/chips-collide-1.ogg",
+        "source_sha256": "f41b3d106360fc68ebc061a211d4265b4cb5fa1fbe86e4d57d3673510e2c3784",
+        "output": "assets/card/sounds/catan/trade.ogg",
+        "output_sha256": "e81c486bed7f0dfd1728681493b2a4a4c04110120136957f392cfac98823e0e9",
+        "filter": "volume=0.7",
+        "format": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vorbis",
+              "sample_rate": "44100",
+              "channels": 1
+            }
+          ],
+          "format": {
+            "duration": "0.258753"
+          }
+        },
+        "encoding": "mono 44100 Hz Ogg Vorbis; metadata removed"
+      }
+    },
+    "reserve": {
+      "resource": "card:catan/robber",
+      "volume": 0.42,
+      "sha256": "ecad9b1abc4fa1e3a157cddbe4c6b993aa2c397e92c5d448aa4d166e02d3d882",
+      "original": {
+        "source": "kenney/casino/card-shove-1.ogg",
+        "source_sha256": "1ea667aa6795d5f14239192116ebcbd8f3f47eb1c7faaf2ec56844b9067b8b06",
+        "output": "assets/card/sounds/catan/robber.ogg",
+        "output_sha256": "ecad9b1abc4fa1e3a157cddbe4c6b993aa2c397e92c5d448aa4d166e02d3d882",
+        "filter": "volume=0.7",
+        "format": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vorbis",
+              "sample_rate": "44100",
+              "channels": 1
+            }
+          ],
+          "format": {
+            "duration": "0.765873"
+          }
+        },
+        "encoding": "mono 44100 Hz Ogg Vorbis; metadata removed"
+      }
+    },
+    "buy": {
+      "resource": "card:catan/settlement",
+      "volume": 0.5,
+      "sha256": "4d6d6ad757dd6d37a97dba191845e9000fa6d65726640e88084f3a04025b4ba7",
+      "original": {
+        "source": "kenney/impact/impactWood_medium_000.ogg",
+        "source_sha256": "1723a9fd25103ed41af06054814e84e65f4a772bac86ab2dc927da93d9592ff5",
+        "output": "assets/card/sounds/catan/settlement.ogg",
+        "output_sha256": "4d6d6ad757dd6d37a97dba191845e9000fa6d65726640e88084f3a04025b4ba7",
+        "filter": "volume=0.7",
+        "format": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vorbis",
+              "sample_rate": "44100",
+              "channels": 1
+            }
+          ],
+          "format": {
+            "duration": "0.332676"
+          }
+        },
+        "encoding": "mono 44100 Hz Ogg Vorbis; metadata removed"
+      }
+    },
+    "return": {
+      "resource": "card:catan/trade",
+      "volume": 0.37,
+      "sha256": "e81c486bed7f0dfd1728681493b2a4a4c04110120136957f392cfac98823e0e9",
+      "original": {
+        "source": "kenney/casino/chips-collide-1.ogg",
+        "source_sha256": "f41b3d106360fc68ebc061a211d4265b4cb5fa1fbe86e4d57d3673510e2c3784",
+        "output": "assets/card/sounds/catan/trade.ogg",
+        "output_sha256": "e81c486bed7f0dfd1728681493b2a4a4c04110120136957f392cfac98823e0e9",
+        "filter": "volume=0.7",
+        "format": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vorbis",
+              "sample_rate": "44100",
+              "channels": 1
+            }
+          ],
+          "format": {
+            "duration": "0.258753"
+          }
+        },
+        "encoding": "mono 44100 Hz Ogg Vorbis; metadata removed"
+      }
+    },
+    "noble": {
+      "resource": "card:catan/win",
+      "volume": 0.48,
+      "sha256": "5c203055a75d0099d728c5157a3ab3869e8f5552dfa0d50ff55bd9c86b6f14e2",
+      "original": {
+        "source": "kenney/impact/impactBell_heavy_000.ogg",
+        "source_sha256": "94b8bb5f2d43ab65e4bcc32b28562416e9bc2c51d9fd4be1e333660ee52f977f",
+        "output": "assets/card/sounds/catan/win.ogg",
+        "output_sha256": "5c203055a75d0099d728c5157a3ab3869e8f5552dfa0d50ff55bd9c86b6f14e2",
+        "filter": "asetrate=52920,aresample=44100,volume=0.5,afade=t=out:st=0.5:d=0.8",
+        "format": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vorbis",
+              "sample_rate": "44100",
+              "channels": 1
+            }
+          ],
+          "format": {
+            "duration": "1.233492"
+          }
+        },
+        "encoding": "mono 44100 Hz Ogg Vorbis; metadata removed"
+      }
+    },
+    "win": {
+      "resource": "card:catan/win",
+      "volume": 0.56,
+      "sha256": "5c203055a75d0099d728c5157a3ab3869e8f5552dfa0d50ff55bd9c86b6f14e2",
+      "original": {
+        "source": "kenney/impact/impactBell_heavy_000.ogg",
+        "source_sha256": "94b8bb5f2d43ab65e4bcc32b28562416e9bc2c51d9fd4be1e333660ee52f977f",
+        "output": "assets/card/sounds/catan/win.ogg",
+        "output_sha256": "5c203055a75d0099d728c5157a3ab3869e8f5552dfa0d50ff55bd9c86b6f14e2",
+        "filter": "asetrate=52920,aresample=44100,volume=0.5,afade=t=out:st=0.5:d=0.8",
+        "format": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vorbis",
+              "sample_rate": "44100",
+              "channels": 1
+            }
+          ],
+          "format": {
+            "duration": "1.233492"
+          }
+        },
+        "encoding": "mono 44100 Hz Ogg Vorbis; metadata removed"
+      }
+    },
+    "illegal": {
+      "resource": "card:catan/illegal",
+      "volume": 0.32,
+      "sha256": "f2056050ed368fbb66b2af8400a43c0b2b39ba6ab9d0ed0e837744d3ad0016f5",
+      "original": {
+        "source": "kenney/impact/impactSoft_medium_000.ogg",
+        "source_sha256": "7d3ba0bb5e60a11b5d3e558c141303dcf494256675fbf753c0d252d2cf0481e3",
+        "output": "assets/card/sounds/catan/illegal.ogg",
+        "output_sha256": "f2056050ed368fbb66b2af8400a43c0b2b39ba6ab9d0ed0e837744d3ad0016f5",
+        "filter": "volume=0.6",
+        "format": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vorbis",
+              "sample_rate": "44100",
+              "channels": 1
+            }
+          ],
+          "format": {
+            "duration": "0.118005"
+          }
+        },
+        "encoding": "mono 44100 Hz Ogg Vorbis; metadata removed"
+      }
+    },
+    "bgm": {
+      "resource": "card:catan/bgm",
+      "volume": 0.18,
+      "sha256": "9cd50eb3d7da589280a163cdfd82ca3869cfdefb0e72e253543c2d9cd9822e43",
+      "original": {
+        "source": "Loop_The_Old_Tower_Inn.wav",
+        "source_sha256": "e18b497fb0edde74a745c4b5a0b90b3fc346c44555f33e3a1485411bbcc171bc",
+        "output": "assets/card/sounds/catan/bgm.ogg",
+        "output_sha256": "9cd50eb3d7da589280a163cdfd82ca3869cfdefb0e72e253543c2d9cd9822e43",
+        "filter": "volume=0.75",
+        "format": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "vorbis",
+              "sample_rate": "44100",
+              "channels": 1
+            }
+          ],
+          "format": {
+            "duration": "49.951383"
+          }
+        },
+        "encoding": "mono 44100 Hz Ogg Vorbis; metadata removed"
+      }
+    }
+  },
+  "retained_originals": ".source/catan/audio/",
+  "duplicated_audio": false
+}

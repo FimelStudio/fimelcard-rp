@@ -1,0 +1,36 @@
+{
+  "author": "Fimel Cards",
+  "artwork": "Original procedural pixel artwork",
+  "generator": "fimel_cards/tools/build_catan_visual.py:resource_icon",
+  "logical_pixels": [
+    32,
+    32
+  ],
+  "item_texture_pixels": [
+    64,
+    64
+  ],
+  "resize": "nearest-neighbor, integer scale 2",
+  "resources": {
+    "wood": {
+      "texture": "assets/card/textures/item/catan/resource/wood.png",
+      "sha256": "ea10ee551132663d25400f746587e9864bb379e1bd0bc9b6f8c3a63c7c29e7e5"
+    },
+    "brick": {
+      "texture": "assets/card/textures/item/catan/resource/brick.png",
+      "sha256": "a56615a6776e36e7a5b27a830b4528fad6952f2feea7e2e5327e51936a20cd26"
+    },
+    "wool": {
+      "texture": "assets/card/textures/item/catan/resource/wool.png",
+      "sha256": "93eb565dcaf9c1c6cfa251ff83f99a2c0bc0a7e5e53756a3fe787eec0b1955ed"
+    },
+    "grain": {
+      "texture": "assets/card/textures/item/catan/resource/grain.png",
+      "sha256": "f73b087fa1f3f22461877927e996976ce46afe07b651d0ce5aabc1ca451ac101"
+    },
+    "ore": {
+      "texture": "assets/card/textures/item/catan/resource/ore.png",
+      "sha256": "bcbf585cb3494ef55c45d87b2662ed4638e643760f3d2aec05ecf21cc9675c83"
+    }
+  }
+}
