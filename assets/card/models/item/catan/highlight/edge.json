@@ -1,0 +1,79 @@
+{
+  "textures": {
+    "all": "card:item/catan/gold",
+    "particle": "card:item/catan/gold"
+  },
+  "elements": [
+    {
+      "name": "cube",
+      "from": [
+        0,
+        0,
+        6.3
+      ],
+      "to": [
+        16,
+        0.4,
+        9.7
+      ],
+      "faces": {
+        "up": {
+          "texture": "#all",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "down": {
+          "texture": "#all",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "north": {
+          "texture": "#all",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#all",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#all",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#all",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        }
+      }
+    }
+  ],
+  "credit": "Fimel Cards; CC0 terrain by Kenney, original game-piece geometry",
+  "gui_light": "front"
+}
