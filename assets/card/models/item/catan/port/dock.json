@@ -1,0 +1,150 @@
+{
+  "textures": {
+    "all": "card:item/catan/wood_edge",
+    "particle": "card:item/catan/wood_edge"
+  },
+  "elements": [
+    {
+      "name": "cube",
+      "from": [
+        -0.4721359549995796,
+        -0.18,
+        9.675
+      ],
+      "to": [
+        8.47213595499958,
+        0.005,
+        10.325
+      ],
+      "faces": {
+        "up": {
+          "texture": "#all",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "north": {
+          "texture": "#all",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#all",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#all",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#all",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        }
+      },
+      "rotation": {
+        "origin": [
+          4.0,
+          0,
+          10.0
+        ],
+        "axis": "y",
+        "angle": -26.56505117707799,
+        "rescale": false
+      }
+    },
+    {
+      "name": "cube",
+      "from": [
+        7.52786404500042,
+        -0.18,
+        9.675
+      ],
+      "to": [
+        16.47213595499958,
+        0.005,
+        10.325
+      ],
+      "faces": {
+        "up": {
+          "texture": "#all",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "north": {
+          "texture": "#all",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#all",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#all",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#all",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        }
+      },
+      "rotation": {
+        "origin": [
+          12.0,
+          0,
+          10.0
+        ],
+        "axis": "y",
+        "angle": -153.434948822922,
+        "rescale": false
+      }
+    }
+  ],
+  "credit": "Fimel Cards; CC0 terrain by Kenney, original game-piece geometry",
+  "gui_light": "front"
+}

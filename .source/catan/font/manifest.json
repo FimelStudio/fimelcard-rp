@@ -1,0 +1,54 @@
+{
+  "font": "card:catan",
+  "source_generator": "fimel_cards/tools/build_catan_font.py",
+  "rebuild": [
+    "python tools/build_catan_visual.py",
+    "python tools/build_catan_font.py",
+    "python tools/build_catan_ui.py"
+  ],
+  "resources": {
+    "wood": {
+      "source": "assets/card/textures/item/catan/resource/wood.png",
+      "sha256": "31c2c80ff7bb30612a8a41a617a6d11068aca82cdc8ef6d8d4e79043ac2ec925"
+    },
+    "brick": {
+      "source": "assets/card/textures/item/catan/resource/brick.png",
+      "sha256": "e21b64687d30a455e6d845510bbd24ca775a6c1da21cfb409051a412f4aae7ab"
+    },
+    "wool": {
+      "source": "assets/card/textures/item/catan/resource/wool.png",
+      "sha256": "40160eb92c28a0f526f551811b011dced219d295d65175a97dedf47a60c2dd02"
+    },
+    "grain": {
+      "source": "assets/card/textures/item/catan/resource/grain.png",
+      "sha256": "c54acb96d4089f514a71f3f61f24689879a33e35ed9e32f9e5d5398f9a72d0d9"
+    },
+    "ore": {
+      "source": "assets/card/textures/item/catan/resource/ore.png",
+      "sha256": "4573a73ccbae7502b4af33c6ff907ea581154897fac3c275b3a994c2e028309f"
+    }
+  },
+  "development_icons": "Fimel Cards 原创像素图形；不含商业 CATAN 图稿",
+  "glyphs": {
+    "wood": "",
+    "brick": "",
+    "wool": "",
+    "grain": "",
+    "ore": "",
+    "knight": "",
+    "road_building": "",
+    "monopoly": "",
+    "year_of_plenty": "",
+    "victory_point": ""
+  },
+  "display": {
+    "height": 14,
+    "ascent": 12,
+    "slice_pixels": [
+      32,
+      32
+    ],
+    "text_color": "white",
+    "line_spacing": "多行文本使用空行，防止高于默认文字的图标重叠"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "textures": {
+    "top": "card:item/catan/tile/forest",
+    "particle": "card:item/catan/tile/forest"
+  },
+  "elements": [
+    {
+      "from": [
+        1.0717967697244912,
+        0,
+        0
+      ],
+      "to": [
+        14.928203230275509,
+        0.01,
+        16
+      ],
+      "faces": {
+        "up": {
+          "texture": "#top",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        }
+      }
+    }
+  ],
+  "credit": "Fimel Cards; CC0 terrain by Kenney, original game-piece geometry",
+  "gui_light": "front"
+}
