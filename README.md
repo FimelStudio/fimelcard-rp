@@ -2,6 +2,8 @@
 
 Minecraft Java 26.2 的 Fimel Card 配套资源包，放入客户端 `resourcepacks` 并启用；更新后按 `F3+T`。
 
+包含胡闹运动会的双面赛道、选手棋子、骰子、奖牌和界面图标；背景音乐可在游戏设置中关闭。玩法见[胡闹运动会文档](https://github.com/FimelStudio/fimelcard-dp/blob/main/docs/胡闹运动会.md)。
+
 [下载数据包和资源包](https://studiofimel.com/#/works/fimel-card) · [完整文档](https://github.com/FimelStudio/fimelcard-dp/blob/main/docs/README.md) · [数据包仓库](https://github.com/FimelStudio/fimelcard-dp) · [资源包仓库](https://github.com/FimelStudio/fimelcard-rp)
 
 ## 兼容性
@@ -22,4 +24,4 @@ Minecraft Java 26.2 的 Fimel Card 配套资源包，放入客户端 `resourcepa
 
 牌桌家具及国际象棋棋子几何使用16bit制作组的[NyaaWork喵工坊资源](https://space.bilibili.com/2907002)，原始资源归原作者所有。
 
-卡坦岛部分地形取自 [Kenney Hexagon Pack](https://kenney.nl/assets/hexagon-pack)，音效取自 Kenney 的 [Casino Audio](https://kenney.nl/assets/casino-audio) 与 [Impact Sounds](https://kenney.nl/assets/impact-sounds)；背景音乐为 RandomMind 的 [Medieval: The Old Tower Inn](https://opengameart.org/content/medieval-the-old-tower-inn)，均为 CC0。棋子、道路、骰子模型及其余图案由本项目制作；原始素材、许可与摘要保留在 [视觉来源](.source/catan/visual/README.md) 和 [音频来源](.source/catan/audio/README.md)。
+胡闹运动会美术、模型及音乐由本项目制作；投骰音效使用 Kenney CC0 素材，制作源及音频许可见[资源说明](.source/magical_athlete/README.md)。
