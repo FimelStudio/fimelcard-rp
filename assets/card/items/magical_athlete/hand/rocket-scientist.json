@@ -1,1 +1,31 @@
-{"model":{"type":"minecraft:select","property":"minecraft:display_context","cases":[{"when":["thirdperson_righthand","thirdperson_lefthand","ground"],"model":{"type":"minecraft:model","model":"card:item/magical_athlete/prop/menu"}}],"fallback":{"type":"minecraft:model","model":"card:item/magical_athlete/token/rocket-scientist"}}}
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "when": [
+          "gui"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "card:item/magical_athlete/token/rocket-scientist"
+        }
+      },
+      {
+        "when": [
+          "firstperson_righthand",
+          "firstperson_lefthand"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "card:item/magical_athlete/hand/rocket-scientist"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "card:item/magical_athlete/hand/back"
+    }
+  }
+}
