@@ -1,7 +1,7 @@
 {
   "id": 23,
   "namespace": "magical_athlete",
-  "texture_style": "Original sports-medallion illustration",
+  "texture_style": "Original full-volume voxel miniatures; illustrated HUD portraits",
   "track_source": "fimel_cards/tools/magical_athlete_track.json",
   "layout": {
     "grid": 16,
@@ -180,7 +180,7 @@
       "card:magical_athlete/racer/third-wheel",
       "card:magical_athlete/racer/twin"
     ],
-    "flat_tokens": [
+    "tokens": [
       "card:magical_athlete/token/alchemist",
       "card:magical_athlete/token/baba-yaga",
       "card:magical_athlete/token/banana",
@@ -231,5 +231,7 @@
   },
   "footprint_4": 2.7,
   "footprint_8": 3.6,
-  "pawn_recommended_scale": 0.18
+  "pawn_base_y": 8,
+  "draft_scale": 0.26,
+  "pawn_recommended_scale": 0.2295
 }
