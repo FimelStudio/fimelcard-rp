@@ -1,0 +1,23 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "when": [
+          "gui",
+          "firstperson_righthand",
+          "firstperson_lefthand"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "card:item/splendor/tier1/sapphire_07"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "card:item/splendor/back/tier1"
+    }
+  }
+}
