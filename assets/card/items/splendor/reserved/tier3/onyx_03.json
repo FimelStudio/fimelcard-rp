@@ -5,13 +5,32 @@
     "cases": [
       {
         "when": [
-          "gui",
+          "gui"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "card:item/splendor/tier3/onyx_03"
+        }
+      },
+      {
+        "when": [
           "firstperson_righthand",
           "firstperson_lefthand"
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "card:item/splendor/tier3/onyx_03"
+          "model": "card:item/splendor/hand/tier3/onyx_03"
+        }
+      },
+      {
+        "when": [
+          "thirdperson_righthand",
+          "thirdperson_lefthand",
+          "ground"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "card:item/splendor/hand/back/tier3"
         }
       }
     ],

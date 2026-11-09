@@ -5,13 +5,32 @@
     "cases": [
       {
         "when": [
-          "gui",
+          "gui"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "card:item/splendor/tier1/diamond_05"
+        }
+      },
+      {
+        "when": [
           "firstperson_righthand",
           "firstperson_lefthand"
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "card:item/splendor/tier1/diamond_05"
+          "model": "card:item/splendor/hand/tier1/diamond_05"
+        }
+      },
+      {
+        "when": [
+          "thirdperson_righthand",
+          "thirdperson_lefthand",
+          "ground"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "card:item/splendor/hand/back/tier1"
         }
       }
     ],

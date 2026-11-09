@@ -1,6 +1,25 @@
 {
   "model": {
-    "type": "minecraft:model",
-    "model": "card:item/splendor/noble/emerald_ruby"
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "when": [
+          "firstperson_righthand",
+          "firstperson_lefthand",
+          "thirdperson_righthand",
+          "thirdperson_lefthand",
+          "ground"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "card:item/splendor/hand/noble/emerald_ruby"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "card:item/splendor/noble/emerald_ruby"
+    }
   }
 }
