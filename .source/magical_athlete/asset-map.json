@@ -1,7 +1,7 @@
 {
   "id": 23,
   "namespace": "magical_athlete",
-  "texture_style": "Original full-volume voxel miniatures; illustrated HUD portraits",
+  "texture_style": "Raised day/night stadium; full-volume voxel miniatures and sculpture HUD thumbnails",
   "track_source": "fimel_cards/tools/magical_athlete_track.json",
   "layout": {
     "grid": 16,
@@ -219,6 +219,14 @@
       "card:magical_athlete/token/twin"
     ],
     "dice": "card:magical_athlete/dice",
+    "guess": [
+      "card:magical_athlete/guess/1",
+      "card:magical_athlete/guess/2",
+      "card:magical_athlete/guess/3",
+      "card:magical_athlete/guess/4",
+      "card:magical_athlete/guess/5",
+      "card:magical_athlete/guess/6"
+    ],
     "cup": "card:magical_athlete/prop/dice_cup"
   },
   "dice_faces": {
