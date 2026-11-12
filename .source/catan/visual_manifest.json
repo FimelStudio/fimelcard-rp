@@ -7,36 +7,12 @@
   "archive_sha256": "e4847bf2142e1d808b59bd3039579d21dcce3a871370659598e9cb9ffad1c92c",
   "originals": [
     {
-      "file": "PNG/Objects/cactus1.png",
-      "sha256": "1bb3436354f489db3503a7dda70e6dfd30bf08e1b7365f94edc3729158605c90"
-    },
-    {
-      "file": "PNG/Objects/cactus2.png",
-      "sha256": "b5e740c083266626854fa73d5c859ed871d37377611909df8ec8f6d7de5bf8ba"
-    },
-    {
-      "file": "PNG/Objects/hay.png",
-      "sha256": "e695684a6ba0981d0c370f9e34c565ef0e7b7b049dbd03caf795ee9725b44218"
-    },
-    {
       "file": "PNG/Objects/logPile.png",
       "sha256": "4651dec53725b89f09a0394c1876d5cd46733415805e194f280e033b0004f224"
     },
     {
-      "file": "PNG/Objects/mine.png",
-      "sha256": "f0023d1fabcd3d595b691d36d59c48bbed8d88e60558c97568a098272c8b50e1"
-    },
-    {
-      "file": "PNG/Objects/rockBrown_large.png",
-      "sha256": "fd4b033f06e6f91a3fe273d5294e66af1cd365536de57569018cf0a71a9904f3"
-    },
-    {
       "file": "PNG/Objects/rockBrown_small.png",
       "sha256": "4311eb27d5dc04228d61ed26326f7962be4b32f73d0df1138da19b917c30e383"
-    },
-    {
-      "file": "PNG/Objects/rockGrey_large.png",
-      "sha256": "1a7cdf2699ccd32a154e266ce5433a12918cc7cac0e52e10c2f033f2902589d9"
     },
     {
       "file": "PNG/Objects/rockGrey_small1.png",
@@ -55,10 +31,6 @@
       "sha256": "78bf64eae65d0af4e806e44ed0dbcdcdf7b3c269b0fbd6a51bec27308c714e23"
     },
     {
-      "file": "PNG/Tiles/Terrain/Grass/grass_12.png",
-      "sha256": "56ee9494ddc3adcf1cecad2dfe7c271a77c8d99d30387fbdfbc34a7b21a7a843"
-    },
-    {
       "file": "PNG/Tiles/Terrain/Sand/sand_07.png",
       "sha256": "20ae82d6c0391ab784d3f8ff594bf7bd94a7cd6a7ee50f632b0752e3badb4f76"
     },
@@ -67,7 +39,7 @@
       "sha256": "0b254db123dcc29497c68e6145feb0770fe13ff241efbec76d4753e80d1a4edc"
     }
   ],
-  "adaptation": "Nearest-neighbor resize, reduced saturation, hex alpha mask; original sheep/grain/sea/frame/number/piece/dice artwork and all cuboid geometry by Fimel Cards.",
+  "adaptation": "CC0 ground textures with nearest-neighbor resize and hex mask. Original 3D trees, clay, sheep, wheat, mines, cacti, harbour, boat, deck, palette textures and rotating number labels by Fimel Cards; geometry source tools/catan_scenery.py.",
   "topology_source": "fimelcard-dp/tools/catan_topology.py",
   "sizes": {
     "4": {
