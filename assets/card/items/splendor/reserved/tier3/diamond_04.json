@@ -1,0 +1,42 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "when": [
+          "gui"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "card:item/splendor/tier3/diamond_04"
+        }
+      },
+      {
+        "when": [
+          "firstperson_righthand",
+          "firstperson_lefthand"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "card:item/splendor/hand/tier3/diamond_04"
+        }
+      },
+      {
+        "when": [
+          "thirdperson_righthand",
+          "thirdperson_lefthand",
+          "ground"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "card:item/splendor/hand/back/tier3"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "card:item/splendor/back/tier3"
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "back": "card:avalon/reveal_back",
+    "particle": "card:avalon/reveal_back"
+  },
+  "elements": [
+    {
+      "from": [
+        3,
+        0,
+        7.95
+      ],
+      "to": [
+        13,
+        16,
+        8.05
+      ],
+      "faces": {
+        "north": {
+          "texture": "#back",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#back",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#back",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#back",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "up": {
+          "texture": "#back",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "down": {
+          "texture": "#back",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        }
+      }
+    }
+  ]
+}
