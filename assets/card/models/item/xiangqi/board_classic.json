@@ -1,0 +1,76 @@
+{
+  "textures": {
+    "board": "card:item/xiangqi/board_classic",
+    "particle": "card:item/xiangqi/board_classic"
+  },
+  "elements": [
+    {
+      "from": [
+        0.8,
+        0,
+        0
+      ],
+      "to": [
+        15.2,
+        0.05,
+        16
+      ],
+      "faces": {
+        "up": {
+          "texture": "#board",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "down": {
+          "texture": "#board",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "north": {
+          "texture": "#board",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#board",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#board",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#board",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        }
+      }
+    }
+  ]
+}

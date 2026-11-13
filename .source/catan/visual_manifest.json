@@ -1,0 +1,54 @@
+{
+  "author": "Kenney Vleugels / Kenney",
+  "asset_page": "https://kenney.nl/assets/hexagon-pack",
+  "license": "CC0-1.0",
+  "license_file": "vendor/Kenney-License.txt",
+  "archive": "vendor/kenney_hexagon-pack.zip",
+  "archive_sha256": "e4847bf2142e1d808b59bd3039579d21dcce3a871370659598e9cb9ffad1c92c",
+  "originals": [
+    {
+      "file": "PNG/Objects/logPile.png",
+      "sha256": "4651dec53725b89f09a0394c1876d5cd46733415805e194f280e033b0004f224"
+    },
+    {
+      "file": "PNG/Objects/rockBrown_small.png",
+      "sha256": "4311eb27d5dc04228d61ed26326f7962be4b32f73d0df1138da19b917c30e383"
+    },
+    {
+      "file": "PNG/Objects/rockGrey_small1.png",
+      "sha256": "415ccaa12acd566513fb1b35c020c8dc3ac90e4aa7850c2397cc1673eaa45b97"
+    },
+    {
+      "file": "PNG/Tiles/Terrain/Dirt/dirt_04.png",
+      "sha256": "de777267ba2ace34854d11f8add4a38e6ddb014815826a542d3043e2dfb5fed1"
+    },
+    {
+      "file": "PNG/Tiles/Terrain/Dirt/dirt_06.png",
+      "sha256": "8e9bff658edb8fee23290ad848f5d80a11ac72ce424a9ede4a91bc58eeb31820"
+    },
+    {
+      "file": "PNG/Tiles/Terrain/Grass/grass_05.png",
+      "sha256": "78bf64eae65d0af4e806e44ed0dbcdcdf7b3c269b0fbd6a51bec27308c714e23"
+    },
+    {
+      "file": "PNG/Tiles/Terrain/Sand/sand_07.png",
+      "sha256": "20ae82d6c0391ab784d3f8ff594bf7bd94a7cd6a7ee50f632b0752e3badb4f76"
+    },
+    {
+      "file": "PNG/Tiles/Terrain/Stone/stone_07.png",
+      "sha256": "0b254db123dcc29497c68e6145feb0770fe13ff241efbec76d4753e80d1a4edc"
+    }
+  ],
+  "adaptation": "CC0 ground textures with nearest-neighbor resize and hex mask. Original 3D trees, clay, sheep, wheat, mines, cacti, harbour, boat, deck, palette textures and rotating number labels by Fimel Card; geometry source tools/catan_scenery.py.",
+  "topology_source": "fimelcard-dp/tools/catan_topology.py",
+  "sizes": {
+    "4": {
+      "R": 0.25,
+      "L": 1.35
+    },
+    "8": {
+      "R": 0.35,
+      "L": 1.8
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "textures": {
+    "face": "card:item/splendor/mat",
+    "particle": "card:item/splendor/mat"
+  },
+  "elements": [
+    {
+      "name": "printed_card",
+      "from": [
+        0.0,
+        7.98,
+        0.0
+      ],
+      "to": [
+        16.0,
+        8.06,
+        16.0
+      ],
+      "faces": {
+        "up": {
+          "texture": "#face",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        }
+      }
+    }
+  ],
+  "credit": "Fimel Card Minecraft-themed card composition; Minecraft textures by Mojang",
+  "gui_light": "front",
+  "display": {
+    "gui": {
+      "rotation": [
+        90,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.9,
+        0.9,
+        0.9
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        90,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.9,
+        0.9,
+        0.9
+      ]
+    }
+  }
+}
