@@ -8,6 +8,7 @@
 贵族使用村民、流浪商人、铁傀儡、雪傀儡、悦灵、蜜蜂、狐狸、美西螈、海龟和猪；下方要求采用发展卡轮廓，表示需要永久折扣而非支付宝石。
 牌面 canonical signature 为 bonus:points:cost；相同奖励、分数、花费使用同一 canonical_id/model 和同一纹理。物品组件也应只携带这种牌的身份，不携带取得时间或牌槽，才能叠加。
 预定牌物品入口位于 card:splendor/reserved/层级/牌名；本人 GUI 与第一人称显示正面，第三人称、掉落、展示框及其他上下文统一显示对应层牌背，避免暴露盲预定身份。
+所有发展卡、贵族卡与牌背分别复用 `base/table`、`base/hand` 两份自定义父模型，不依赖原版生成物品父类。模型都有正反面与独立纸边，手持牌采用与 poker 一致的姿态及中心，牌面比例为 256:352；子模型仅覆盖纹理，Blockbench 源文件保留展开后的完整几何。执行 `python tools/build_splendor_assets.py --models-only --check` 可只重建这部分。
 以 tier1/diamond_01 等“层级／宝石／同组序号”命名；源模型位于 models/*.bbmodel，可在 Blockbench 编辑。
 纹理源位于 textures/，预览见 preview.png；所有源文件可由数据包 tools/build_splendor_assets.py 重建。
 选游图标以 Minecraft 原版像素钻石、六色物品宝石和发展卡构图，保留双语铭牌。

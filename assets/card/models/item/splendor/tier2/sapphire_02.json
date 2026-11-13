@@ -1,70 +1,7 @@
 {
+  "parent": "card:item/splendor/base/table",
   "textures": {
-    "face": "card:item/splendor/tier2/sapphire_02",
-    "particle": "card:item/splendor/tier2/sapphire_02"
-  },
-  "elements": [
-    {
-      "name": "printed_card",
-      "from": [
-        2.0,
-        7.98,
-        0.0
-      ],
-      "to": [
-        14.0,
-        8.06,
-        16.0
-      ],
-      "faces": {
-        "up": {
-          "texture": "#face",
-          "uv": [
-            0,
-            0,
-            16,
-            16
-          ]
-        }
-      }
-    }
-  ],
-  "credit": "Fimel Cards Minecraft-themed card composition; Minecraft textures by Mojang",
-  "gui_light": "front",
-  "display": {
-    "gui": {
-      "rotation": [
-        90,
-        0,
-        0
-      ],
-      "translation": [
-        0,
-        0,
-        0
-      ],
-      "scale": [
-        0.9,
-        0.9,
-        0.9
-      ]
-    },
-    "fixed": {
-      "rotation": [
-        90,
-        0,
-        0
-      ],
-      "translation": [
-        0,
-        0,
-        0
-      ],
-      "scale": [
-        0.9,
-        0.9,
-        0.9
-      ]
-    }
+    "front": "card:item/splendor/tier2/sapphire_02",
+    "back": "card:item/splendor/back/tier2"
   }
 }
