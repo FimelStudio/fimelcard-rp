@@ -25,3 +25,7 @@ Minecraft Java 26.2 的 Fimel Card 配套资源包，放入客户端 `resourcepa
 牌桌家具及国际象棋棋子几何使用16bit制作组的[NyaaWork喵工坊资源](https://space.bilibili.com/2907002)，原始资源归原作者所有。
 
 胡闹运动会美术、模型及音乐由本项目制作；投骰音效使用 Kenney CC0 素材，制作源及音频许可见[资源说明](.source/magical_athlete/README.md)。
+
+## 使用许可
+
+允许免费游玩、使用、修改和分享；**禁止盈利、广告推广及网盘分成等变现行为**。修改或转载需保留署名和许可声明，详见 [使用许可](LICENSE.md)。已单独标注的第三方素材仍遵循其原有许可。

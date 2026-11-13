@@ -1,6 +1,6 @@
 # 胡闹运动会音频
 
-`bgm.wav` 是 Fimel Cards 原创轻快运动主题：C 大调、120 BPM、4/4 拍、16 小节，共 32 秒（640 游戏刻）。旋律、低音、拨弦和打击乐均由生成器合成，无第三方采样。其余短音效也为原创合成，许可 CC0-1.0。
+`bgm.wav` 是 Fimel Card 原创轻快运动主题：C 大调、120 BPM、4/4 拍、16 小节，共 32 秒（640 游戏刻）。旋律、低音、拨弦和打击乐均由生成器合成，无第三方采样。其余短音效也为原创合成，许可 CC0-1.0。
 
 掷骰事件复用已经合并的 [Kenney Casino Audio 1.1](https://kenney.nl/assets/casino-audio) `dice-throw-1.ogg`，许可为 CC0；原始文件及许可在 `.source/catan/audio/kenney/casino/`。运行资源引用同一 Ogg，不重复打包。
 

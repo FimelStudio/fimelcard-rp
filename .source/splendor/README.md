@@ -1,6 +1,6 @@
 # 璀璨宝石 Minecraft 主题资源
 
-发展牌、贵族牌、桌垫与宝石袋使用 Fimel Cards 自行设计的版式，不复刻璀璨宝石原作插画。
+发展牌、贵族牌、桌垫与宝石袋使用 Fimel Card 自行设计的版式，不复刻璀璨宝石原作插画。
 宝石、材料、方块与生物脸部来自本机 Minecraft 26.2 客户端；权利归 Mojang / Microsoft，参与合成的原版源图保留在 vanilla/，SHA-256 见 vanilla/manifest.json。
 重建优先复用 vanilla/，源图缺失时才从本机版本 jar 提取。源图只供此 Minecraft 资源包合成使用，不宣称原创或 CC0。
 牌面数值来自数据包 tools/splendor_cards.json，数值引用见该文件 sources。
