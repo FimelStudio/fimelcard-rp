@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "format_version": "5.0",
+    "model_format": "java_block",
+    "box_uv": false
+  },
+  "name": "base/hand",
+  "resolution": {
+    "width": 16,
+    "height": 16
+  },
+  "elements": [
+    {
+      "name": "held_card",
+      "from": [
+        1,
+        0.75,
+        8.4
+      ],
+      "to": [
+        13,
+        17.25,
+        8.6
+      ],
+      "faces": {
+        "up": {
+          "texture": 2,
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "down": {
+          "texture": 2,
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "north": {
+          "texture": 0,
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "south": {
+          "texture": 1,
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "east": {
+          "texture": 2,
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "west": {
+          "texture": 2,
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        }
+      },
+      "uuid": "7e6f1285-9a0d-5e7d-bd27-b973033c93a5",
+      "type": "cube",
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "box_uv": false,
+      "rescale": false
+    }
+  ],
+  "outliner": [
+    "7e6f1285-9a0d-5e7d-bd27-b973033c93a5"
+  ],
+  "textures": [
+    {
+      "name": "paper.png",
+      "id": "0",
+      "uuid": "cbdb5001-1c84-5b57-a7a5-aafd5ec62db8",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAAI0lEQVR4nGP8+PQkAymAiSTVDKMaiANMRKqDg1ENxACSNQAANmICv5GzA/gAAAAASUVORK5CYII="
+    },
+    {
+      "name": "paper.png",
+      "id": "1",
+      "uuid": "cc598d95-e945-55b5-bf1b-f94223159b67",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAAI0lEQVR4nGP8+PQkAymAiSTVDKMaiANMRKqDg1ENxACSNQAANmICv5GzA/gAAAAASUVORK5CYII="
+    },
+    {
+      "name": "edge.png",
+      "id": "2",
+      "uuid": "35e13b48-478d-5e71-9327-8616ed52ea5e",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAAKElEQVR4nGP8+uoSAymAiSTVDAwMLE/uXaGtDUyjGogATMQoYhjpGgBb9gVpUCmxlAAAAABJRU5ErkJggg=="
+    }
+  ]
+}

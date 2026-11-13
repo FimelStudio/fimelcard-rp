@@ -1,0 +1,469 @@
+{
+  "style": "Original full-volume voxel miniatures",
+  "base_y": 8,
+  "geometry_cleanup": "Disjoint solid cuboids; later decoration owns intersections; all internal face regions clipped",
+  "reference": "https://www.cmyk.games/products/magical-athlete",
+  "figures": [
+    {
+      "id": 0,
+      "slug": "alchemist",
+      "name": "炼金术士",
+      "design_parts": 9,
+      "cubes": 35,
+      "base_y": 8,
+      "geometry_sha256": "2cc8e99564e65b6abf302a881d7a90842e31e031e7734ecb041ba8ffdd97b943"
+    },
+    {
+      "id": 1,
+      "slug": "baba-yaga",
+      "name": "芭芭雅嘎",
+      "design_parts": 17,
+      "cubes": 84,
+      "base_y": 8,
+      "geometry_sha256": "ed2ff7a48ff4277075c0c6f912ab8f79d1a313753551141ceb2a2ef7cbd972b5"
+    },
+    {
+      "id": 2,
+      "slug": "banana",
+      "name": "香蕉",
+      "design_parts": 10,
+      "cubes": 67,
+      "base_y": 8,
+      "geometry_sha256": "1881679fab19233290c476e01909ecb96fe1fca96e03bd5ef372cbaba0a77669"
+    },
+    {
+      "id": 3,
+      "slug": "blimp",
+      "name": "飞艇",
+      "design_parts": 10,
+      "cubes": 72,
+      "base_y": 8,
+      "geometry_sha256": "d4abe45e15d26fd46748c86c885187ed5300c386ab7154288a3a70da1bbe9904"
+    },
+    {
+      "id": 4,
+      "slug": "centaur",
+      "name": "半人马",
+      "design_parts": 13,
+      "cubes": 64,
+      "base_y": 8,
+      "geometry_sha256": "71be584bf295d0d9eab15dd32875b824b86e35f9df4911c4716c113997d0858b"
+    },
+    {
+      "id": 5,
+      "slug": "cheerleader",
+      "name": "啦啦队长",
+      "design_parts": 17,
+      "cubes": 112,
+      "base_y": 8,
+      "geometry_sha256": "41e8f01bdf5db8dc4befd487e97e3ad62c7c23a552419da5805b00a3a4177bc2"
+    },
+    {
+      "id": 6,
+      "slug": "coach",
+      "name": "教练",
+      "design_parts": 17,
+      "cubes": 83,
+      "base_y": 8,
+      "geometry_sha256": "ff04589926e833d86e44c6b1afa2cfa4f005424f7fcfb5ab82bbef776500603b"
+    },
+    {
+      "id": 7,
+      "slug": "copycat",
+      "name": "模仿猫",
+      "design_parts": 11,
+      "cubes": 84,
+      "base_y": 8,
+      "geometry_sha256": "702261ac5fc8a177f93136b03ab1c1a9b3ed8662f9aa9bfd054235e4cfadee57"
+    },
+    {
+      "id": 8,
+      "slug": "dicemonger",
+      "name": "骰子商人",
+      "design_parts": 21,
+      "cubes": 137,
+      "base_y": 8,
+      "geometry_sha256": "3b41292efbce0459a41750534cab5513f47cbaa2e93c4439189f7162753a17a8"
+    },
+    {
+      "id": 9,
+      "slug": "duelist",
+      "name": "决斗家",
+      "design_parts": 17,
+      "cubes": 88,
+      "base_y": 8,
+      "geometry_sha256": "138a170656ed75258035f43f39b13259b6cc0490ac5e1fa201edaddac36aa21a"
+    },
+    {
+      "id": 10,
+      "slug": "egg",
+      "name": "蛋蛋",
+      "design_parts": 9,
+      "cubes": 64,
+      "base_y": 8,
+      "geometry_sha256": "815ef9fa18791a59d2854b72a8f55847ca4f8475ee1ef66e0f2d9a9acbb36035"
+    },
+    {
+      "id": 11,
+      "slug": "flip-flop",
+      "name": "人字拖",
+      "design_parts": 8,
+      "cubes": 76,
+      "base_y": 8,
+      "geometry_sha256": "c1f03a8f64aef4762771e3642d3c7918ccbed0aa34b8c6cd5b02ff83763ae059"
+    },
+    {
+      "id": 12,
+      "slug": "genius",
+      "name": "天才",
+      "design_parts": 17,
+      "cubes": 87,
+      "base_y": 8,
+      "geometry_sha256": "02e58d06c620765fc118a89711ec6b36919ff57543b7bfca70ee5d8dba815412"
+    },
+    {
+      "id": 13,
+      "slug": "gunk",
+      "name": "黏液怪",
+      "design_parts": 9,
+      "cubes": 54,
+      "base_y": 8,
+      "geometry_sha256": "fca260dd5eab6e8a214f84313b9c256bc0a6d81f0c7da9bf14187301f89d11e4"
+    },
+    {
+      "id": 14,
+      "slug": "hare",
+      "name": "野兔",
+      "design_parts": 10,
+      "cubes": 74,
+      "base_y": 8,
+      "geometry_sha256": "a065990284211b4eeefeb0df9f3f1f98670e2f560d632f57eeab83f35cbd8ec7"
+    },
+    {
+      "id": 15,
+      "slug": "heckler",
+      "name": "起哄者",
+      "design_parts": 17,
+      "cubes": 82,
+      "base_y": 8,
+      "geometry_sha256": "d54961797b9aebc0536130a25cbca4c04f69bf12adcc427d65167881be62f3ba"
+    },
+    {
+      "id": 16,
+      "slug": "huge-baby",
+      "name": "巨婴",
+      "design_parts": 9,
+      "cubes": 59,
+      "base_y": 8,
+      "geometry_sha256": "c2a1e3d7a29b85fab50d7833620d98d97357503d53e5d683277676e0f0bc6dfe"
+    },
+    {
+      "id": 17,
+      "slug": "hypnotist",
+      "name": "催眠师",
+      "design_parts": 17,
+      "cubes": 93,
+      "base_y": 8,
+      "geometry_sha256": "64b6ac96e20ac1b675655b4473b63ff122440ad487068748abc0904c160d4398"
+    },
+    {
+      "id": 18,
+      "slug": "inchworm",
+      "name": "尺蠖",
+      "design_parts": 11,
+      "cubes": 50,
+      "base_y": 8,
+      "geometry_sha256": "d90742828a21e1c350bf9770993bfdbb9a4deb8424a29d13248e38355463c6a9"
+    },
+    {
+      "id": 19,
+      "slug": "lackey",
+      "name": "跟班",
+      "design_parts": 17,
+      "cubes": 104,
+      "base_y": 8,
+      "geometry_sha256": "588fecb121e5077265c77a83435d2c52acda3c280e9e765a824764d26c974836"
+    },
+    {
+      "id": 20,
+      "slug": "leaptoad",
+      "name": "跳跳蟾蜍",
+      "design_parts": 9,
+      "cubes": 54,
+      "base_y": 8,
+      "geometry_sha256": "3e26afa2e9cf32887c92dae463e776744a178641fcd39cdb503712f7d05abce5"
+    },
+    {
+      "id": 21,
+      "slug": "legs",
+      "name": "大长腿",
+      "design_parts": 8,
+      "cubes": 41,
+      "base_y": 8,
+      "geometry_sha256": "e4a2e2f5f310b0402c0f37382d76a48cc67dc3dec555e7eb5847a1b00e91735c"
+    },
+    {
+      "id": 22,
+      "slug": "lovable-loser",
+      "name": "可爱的倒霉蛋",
+      "design_parts": 11,
+      "cubes": 71,
+      "base_y": 8,
+      "geometry_sha256": "a2e52673444ff1ad26e3e9eb95c180a9a48f5292763af633f1d296fe9b7fdb2b"
+    },
+    {
+      "id": 23,
+      "slug": "magician",
+      "name": "魔术师",
+      "design_parts": 18,
+      "cubes": 102,
+      "base_y": 8,
+      "geometry_sha256": "83e0e6e3feedfb9d9956a802ab034976ab91d26c54d5fc2b030265d71bdc1ded"
+    },
+    {
+      "id": 24,
+      "slug": "mastermind",
+      "name": "幕后军师",
+      "design_parts": 9,
+      "cubes": 70,
+      "base_y": 8,
+      "geometry_sha256": "901243cc4b1411d837ab712b866894e96c245a52a021ef44e417a4f9f2f9d91f"
+    },
+    {
+      "id": 25,
+      "slug": "mouth",
+      "name": "大嘴怪",
+      "design_parts": 11,
+      "cubes": 84,
+      "base_y": 8,
+      "geometry_sha256": "04a4bcf73872eda865a4a17f94b9b6232bd62a9ed832d90001cbbf7d732d7729"
+    },
+    {
+      "id": 26,
+      "slug": "party-animal",
+      "name": "派对动物",
+      "design_parts": 11,
+      "cubes": 58,
+      "base_y": 8,
+      "geometry_sha256": "bc99b852f3d13d8b4f00c0e6a5117269896ebdecd166b17c9173b4534e21789b"
+    },
+    {
+      "id": 27,
+      "slug": "rocket-scientist",
+      "name": "火箭科学家",
+      "design_parts": 10,
+      "cubes": 49,
+      "base_y": 8,
+      "geometry_sha256": "2f46a21282edaa5f4947b0fc42a9c7d11274419f32f4f6682bf3658f2ed90f05"
+    },
+    {
+      "id": 28,
+      "slug": "romantic",
+      "name": "浪漫家",
+      "design_parts": 10,
+      "cubes": 45,
+      "base_y": 8,
+      "geometry_sha256": "7d398f71c98bbad192cdb8cfc8dfe77e0c755bb1e01f56878f37b84a711cdbaf"
+    },
+    {
+      "id": 29,
+      "slug": "scoocher",
+      "name": "蹭蹭怪",
+      "design_parts": 9,
+      "cubes": 83,
+      "base_y": 8,
+      "geometry_sha256": "7077e1edb19001f0f555d32b7ba27b79737f917895d43d2ec8b5d0fbb51be369"
+    },
+    {
+      "id": 30,
+      "slug": "sisyphus",
+      "name": "西西弗斯",
+      "design_parts": 8,
+      "cubes": 36,
+      "base_y": 8,
+      "geometry_sha256": "76597090379face843a8d25492d85b1f07b2b21e8edead6c6ac96a406dd02052"
+    },
+    {
+      "id": 31,
+      "slug": "skipper",
+      "name": "船长",
+      "design_parts": 8,
+      "cubes": 39,
+      "base_y": 8,
+      "geometry_sha256": "4f9cfaaec1a5d737776d3bb49d2a87637e3d94a80fb22953a0940e6028e54222"
+    },
+    {
+      "id": 32,
+      "slug": "stickler",
+      "name": "较真怪",
+      "design_parts": 13,
+      "cubes": 33,
+      "base_y": 8,
+      "geometry_sha256": "ab5429004970c3e092be2c7ff240d3be3e52cc199056befd7d7206246d264613"
+    },
+    {
+      "id": 33,
+      "slug": "suckerfish",
+      "name": "吸盘鱼",
+      "design_parts": 9,
+      "cubes": 52,
+      "base_y": 8,
+      "geometry_sha256": "96446d6826e2259cee79f6c7e6a70e8be68fe333711bb8bb8bcd92b800332080"
+    },
+    {
+      "id": 34,
+      "slug": "third-wheel",
+      "name": "电灯泡",
+      "design_parts": 12,
+      "cubes": 82,
+      "base_y": 8,
+      "geometry_sha256": "6a46f55669609a9dec7971a447fccdd3e58ee33c7b2532d44c7e96c41091b776"
+    },
+    {
+      "id": 35,
+      "slug": "twin",
+      "name": "双胞胎",
+      "design_parts": 11,
+      "cubes": 46,
+      "base_y": 8,
+      "geometry_sha256": "bf3ae75c5e2f428d78d8bd13fe09705544d90997358c5abf47947056066089a3"
+    },
+    {
+      "id": -1,
+      "slug": "back",
+      "name": "未公开选手",
+      "design_parts": 7,
+      "cubes": 31,
+      "base_y": 8,
+      "geometry_sha256": "f2e62447d24144abae3202e0e9a7e0ef330390dc5373c6cbdb9be42e82f8ef7b"
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation": [
+        25,
+        225,
+        0
+      ],
+      "translation": [
+        0,
+        -4.8,
+        0
+      ],
+      "scale": [
+        0.62,
+        0.62,
+        0.62
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        160,
+        0
+      ],
+      "translation": [
+        -2,
+        3.5,
+        1.5
+      ],
+      "scale": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        200,
+        0
+      ],
+      "translation": [
+        -2,
+        3.5,
+        1.5
+      ],
+      "scale": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        0.24,
+        0.24,
+        0.24
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        75,
+        225,
+        0
+      ],
+      "translation": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        0.24,
+        0.24,
+        0.24
+      ]
+    },
+    "ground": {
+      "translation": [
+        0,
+        1,
+        0
+      ],
+      "scale": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "translation": [
+        0,
+        -5,
+        0
+      ],
+      "scale": [
+        0.6,
+        0.6,
+        0.6
+      ]
+    },
+    "head": {
+      "translation": [
+        0,
+        -5,
+        0
+      ],
+      "scale": [
+        0.6,
+        0.6,
+        0.6
+      ]
+    }
+  }
+}
