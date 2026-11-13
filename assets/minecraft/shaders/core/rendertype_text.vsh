@@ -36,16 +36,16 @@ void main() {
             vec2(2.0, 0.0),
             vec2(1.0, 1.0)
         );
-    
+
         vec2 decodedPosition = Position.xy + vec2(750.0);
         int originIndex = int(mod(floor(decodedPosition.x / 1500.0), 10.0));
         decodedPosition.y -= 0.5 * floor(decodedPosition.x / 15000.0);
         decodedPosition.x = mod(decodedPosition.x, 1500.0);
         decodedPosition -= vec2(750.0);
-    
+
         gl_Position = ProjMat * ModelViewMat * vec4(decodedPosition, Position.z, 1.0);
         gl_Position.xy += origins[originIndex] - titlePos;
-    
+
         // 独立加载探针使用专用颜色 #12FEDC，不参与 BetterTitle 或花火正式面板。
         // 它只用于确认 core/text 的自定义 GUI 分支正在执行。
         bool isShaderProbe =

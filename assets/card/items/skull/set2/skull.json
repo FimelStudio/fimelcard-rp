@@ -1,0 +1,29 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "when": [
+          "thirdperson_righthand",
+          "thirdperson_lefthand"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "card:item/skull/set2/back"
+        }
+      },
+      {
+        "when": "none",
+        "model": {
+          "type": "minecraft:model",
+          "model": "card:item/skull/set2/skull_table"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "card:item/skull/set2/skull"
+    }
+  }
+}

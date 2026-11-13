@@ -1,0 +1,245 @@
+{
+  "id": 23,
+  "namespace": "magical_athlete",
+  "texture_style": "Raised day/night stadium; full-volume voxel miniatures and sculpture HUD thumbnails",
+  "track_source": "fimel_cards/tools/magical_athlete_track.json",
+  "layout": {
+    "grid": 16,
+    "footprints": {
+      "4": 2.7,
+      "8": 3.6
+    },
+    "positions": [
+      [
+        2,
+        14
+      ],
+      [
+        3.5,
+        14
+      ],
+      [
+        5,
+        14
+      ],
+      [
+        6.5,
+        14
+      ],
+      [
+        8,
+        14
+      ],
+      [
+        9.5,
+        14
+      ],
+      [
+        11,
+        14
+      ],
+      [
+        12.5,
+        14
+      ],
+      [
+        14,
+        14
+      ],
+      [
+        14,
+        12.28571429
+      ],
+      [
+        14,
+        10.57142857
+      ],
+      [
+        14,
+        8.85714286
+      ],
+      [
+        14,
+        7.14285714
+      ],
+      [
+        14,
+        5.42857143
+      ],
+      [
+        14,
+        3.71428571
+      ],
+      [
+        14,
+        2
+      ],
+      [
+        12.5,
+        2
+      ],
+      [
+        11,
+        2
+      ],
+      [
+        9.5,
+        2
+      ],
+      [
+        8,
+        2
+      ],
+      [
+        6.5,
+        2
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        3.5,
+        2
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3.5
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        6.5
+      ],
+      [
+        2,
+        8
+      ],
+      [
+        2,
+        9.5
+      ],
+      [
+        2,
+        11
+      ],
+      [
+        2,
+        12.5
+      ]
+    ],
+    "artwork": "Fimel Card original rectangular sports stadium; board UV and runtime coordinates share these centers"
+  },
+  "models": {
+    "board": [
+      "card:magical_athlete/board/mild",
+      "card:magical_athlete/board/wild"
+    ],
+    "racers": [
+      "card:magical_athlete/racer/alchemist",
+      "card:magical_athlete/racer/baba-yaga",
+      "card:magical_athlete/racer/banana",
+      "card:magical_athlete/racer/blimp",
+      "card:magical_athlete/racer/centaur",
+      "card:magical_athlete/racer/cheerleader",
+      "card:magical_athlete/racer/coach",
+      "card:magical_athlete/racer/copycat",
+      "card:magical_athlete/racer/dicemonger",
+      "card:magical_athlete/racer/duelist",
+      "card:magical_athlete/racer/egg",
+      "card:magical_athlete/racer/flip-flop",
+      "card:magical_athlete/racer/genius",
+      "card:magical_athlete/racer/gunk",
+      "card:magical_athlete/racer/hare",
+      "card:magical_athlete/racer/heckler",
+      "card:magical_athlete/racer/huge-baby",
+      "card:magical_athlete/racer/hypnotist",
+      "card:magical_athlete/racer/inchworm",
+      "card:magical_athlete/racer/lackey",
+      "card:magical_athlete/racer/leaptoad",
+      "card:magical_athlete/racer/legs",
+      "card:magical_athlete/racer/lovable-loser",
+      "card:magical_athlete/racer/magician",
+      "card:magical_athlete/racer/mastermind",
+      "card:magical_athlete/racer/mouth",
+      "card:magical_athlete/racer/party-animal",
+      "card:magical_athlete/racer/rocket-scientist",
+      "card:magical_athlete/racer/romantic",
+      "card:magical_athlete/racer/scoocher",
+      "card:magical_athlete/racer/sisyphus",
+      "card:magical_athlete/racer/skipper",
+      "card:magical_athlete/racer/stickler",
+      "card:magical_athlete/racer/suckerfish",
+      "card:magical_athlete/racer/third-wheel",
+      "card:magical_athlete/racer/twin"
+    ],
+    "tokens": [
+      "card:magical_athlete/token/alchemist",
+      "card:magical_athlete/token/baba-yaga",
+      "card:magical_athlete/token/banana",
+      "card:magical_athlete/token/blimp",
+      "card:magical_athlete/token/centaur",
+      "card:magical_athlete/token/cheerleader",
+      "card:magical_athlete/token/coach",
+      "card:magical_athlete/token/copycat",
+      "card:magical_athlete/token/dicemonger",
+      "card:magical_athlete/token/duelist",
+      "card:magical_athlete/token/egg",
+      "card:magical_athlete/token/flip-flop",
+      "card:magical_athlete/token/genius",
+      "card:magical_athlete/token/gunk",
+      "card:magical_athlete/token/hare",
+      "card:magical_athlete/token/heckler",
+      "card:magical_athlete/token/huge-baby",
+      "card:magical_athlete/token/hypnotist",
+      "card:magical_athlete/token/inchworm",
+      "card:magical_athlete/token/lackey",
+      "card:magical_athlete/token/leaptoad",
+      "card:magical_athlete/token/legs",
+      "card:magical_athlete/token/lovable-loser",
+      "card:magical_athlete/token/magician",
+      "card:magical_athlete/token/mastermind",
+      "card:magical_athlete/token/mouth",
+      "card:magical_athlete/token/party-animal",
+      "card:magical_athlete/token/rocket-scientist",
+      "card:magical_athlete/token/romantic",
+      "card:magical_athlete/token/scoocher",
+      "card:magical_athlete/token/sisyphus",
+      "card:magical_athlete/token/skipper",
+      "card:magical_athlete/token/stickler",
+      "card:magical_athlete/token/suckerfish",
+      "card:magical_athlete/token/third-wheel",
+      "card:magical_athlete/token/twin"
+    ],
+    "dice": "card:magical_athlete/dice",
+    "guess": [
+      "card:magical_athlete/guess/1",
+      "card:magical_athlete/guess/2",
+      "card:magical_athlete/guess/3",
+      "card:magical_athlete/guess/4",
+      "card:magical_athlete/guess/5",
+      "card:magical_athlete/guess/6"
+    ],
+    "cup": "card:magical_athlete/prop/dice_cup"
+  },
+  "dice_faces": {
+    "up": 1,
+    "down": 6,
+    "north": 2,
+    "south": 5,
+    "east": 3,
+    "west": 4
+  },
+  "footprint_4": 2.7,
+  "footprint_8": 3.6,
+  "pawn_base_y": 8,
+  "draft_scale": 0.26,
+  "pawn_recommended_scale": 0.2295
+}
